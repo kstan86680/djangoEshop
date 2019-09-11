@@ -46,12 +46,18 @@ This E commerce platform is for the people who want easy shopping through credit
 
 ### Deployment
 Deployment is entirely done with heroku. Difference between development and Deployment version is mentioned below
-|Deployment|Development  |
-|--|--|
-|Dont have proc file  |Have proc file  |
-|DEBUG: False|DEBUG: True|
-|Database: SQLite3|Database: PostgreSQL|
-|Static files served from local |Static files served from whitenoise storage|
+
+Deployment
+ - Have proc file 
+ - DEBUG: False 
+ - Database: SQLite3 
+ - Static files served from local
+
+Development
+ - Dont Have proc file 
+ - DEBUG: True 
+ - Database: PostgreSQL 
+ - Static files served from whitenoise (a python library) storage
 
 ### Credits
 
