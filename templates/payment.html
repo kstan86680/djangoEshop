@@ -169,9 +169,10 @@ button:hover {
 {% endblock content %}
 
 {% block extra_scripts %}
+<script src="https://js.stripe.com/v3/"></script>
 
 <script nonce="">  // Create a Stripe client.
-  var stripe = Stripe('');
+  var stripe = Stripe('pk_test_frtoSCH35rMpvM02Emzlzrg3005iBwDOog');
 
   // Create an instance of Elements.
   var elements = stripe.elements();
@@ -256,7 +257,7 @@ button:hover {
 
 </script>
 
-{% endblock extra_scripts %}
+{% endblock  %}
 
 
 
