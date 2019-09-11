@@ -88,3 +88,4 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
+ACCOUNT_EMAIL_VERIFICATION = 'none'
