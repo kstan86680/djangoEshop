@@ -45,7 +45,7 @@ class Item(models.Model):
     image = models.ImageField()
 
     def __str__(self):
-        return self.price
+        return self.title
 
     def get_absolute_url(self):
         return reverse("core:product", kwargs={
