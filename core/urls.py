@@ -14,6 +14,7 @@ from .views import (
 
 app_name = 'core'
 
+## core url patterns
 urlpatterns = [
     path('', HomeView.as_view(), name='home'),
     path('checkout/', CheckoutView.as_view(), name='checkout'),
