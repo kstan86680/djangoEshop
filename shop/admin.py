@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import Product, Cart, CartItem
 # Register your models here.
-
+#  Test
 class ProductAdmin(admin.ModelAdmin):
     list_display = ('name', 'featured', 'recommended')
 
