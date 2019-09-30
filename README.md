@@ -10,7 +10,7 @@ This E commerce platform is for the people who want easy shopping through credit
  - As a customer I want to see a list of products so that I can choose
    from different of varieties.
  - As a customer I want to have online transaction available so that I
-   can 	   purchase from home
+   can     purchase from home
  - As an admin I want to have a dashboard from where I can control
    everything    
  - As an admin I want to have my payments gathered in one    place.
@@ -30,11 +30,11 @@ This E commerce platform is for the people who want easy shopping through credit
 
 ### Technology Used
  - Django : A python web framework
-	 - Django provides easy implementation of MVC pattern. Which serves our purpose very well
+   - Django provides easy implementation of MVC pattern. Which serves our purpose very well
  - Heroku : A platform to host web application 
-	 - Heroku is a software as a service which made deployment very efficient and easy. It is also able to scale the web app
+   - Heroku is a software as a service which made deployment very efficient and easy. It is also able to scale the web app
  -  Frontend : HTML, CSS, JavaScript, JQuery
-	  - All of this mandatory frontend technologies are used for simplify browser dom manipulation.  And styling the whole project.
+    - All of this mandatory frontend technologies are used for simplify browser dom manipulation.  And styling the whole project.
 
 ### Testing 
 **stripe**  is tested using `4242 4242 4242 4242` and a US zip code `99501` as its verified by US
@@ -59,6 +59,11 @@ Development
  - Database: PostgreSQL 
  - Static files served from whitenoise (a python library) storage
 
+ # Limitation Issue (folder name Proof of DjangoEshop apps)
+ SQLLite and AWS will keep reActivate the server and data will keep reactivated
+Recorded Proof of video & images attached, shown I test all process and it worked well from login, click product to purchase and also shown the Stripe payment successed too. 
+
+
 ### Credits
 
 **Media**
@@ -69,3 +74,4 @@ Development
 **Acknowledgements**
 
 -   I received inspiration for this project from my family
+
